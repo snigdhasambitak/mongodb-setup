@@ -1,12 +1,12 @@
 # mongodb-setup using docker-compose
 
-## docker-compose up --build -d mongodb
+step 1:  docker-compose up --build -d mongodb
 
-## docker ps ## to get the container id
+step 2: docker ps ## to get the container id
 
-## docker exec -it 1d1d83561153 /bin/bash
+step 3: docker exec -it 1d1d83561153 /bin/bash
 
-## mongo -u admin -p password --authenticationDatabase admin
+step 4: mongo -u admin -p password --authenticationDatabase admin
 
 ```
 MongoDB shell version v4.4.4
@@ -16,7 +16,7 @@ MongoDB server version: 4.4.4
 Welcome to the MongoDB shell
 ```
 
-## verify everything works
+step 5: verify everything works
 
 ```
 > db.enableFreeMonitoring()
